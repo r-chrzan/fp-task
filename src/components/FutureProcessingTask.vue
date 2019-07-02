@@ -30,7 +30,7 @@
 
       <div class="single-post">
         <div class="content">
-        <p>Posted in {{ post.date | formatDate }}</p>
+        <p>Posted on {{ post.date | formatDate }}</p>
         <h1 v-html="post.title.rendered"></h1>
         <div v-html="post.excerpt.rendered"></div>
 
